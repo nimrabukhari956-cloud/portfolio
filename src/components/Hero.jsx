@@ -36,11 +36,20 @@ function Hero() {
              className="bg-white text-neutral-900 text-sm font-medium px-5 py-2.5 rounded-full hover:bg-neutral-100 transition-colors">
               GitHub
             </a>
+            <a
+              href="https://linkedin.com/in/nimrabukhari"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-neutral-900 text-sm font-medium px-5 py-2.5 rounded-full hover:bg-neutral-100 transition-colors"
+            >
+             LinkedIn
+            </a>
             <a 
              href="#contact"
              className="bg-white text-neutral-900 text-sm font-medium px-5 py-2.5 rounded-full hover:bg-neutral-100 transition-colors">
               Contact Me
             </a>
+            
           </div>
 
           <p className="text-xs text-neutral-500 mt-2">
@@ -50,11 +59,13 @@ function Hero() {
 
         {/* Right: Photo */}
         <div className="relative flex justify-center md:justify-end">
-          <img
-            src="/nimra-photo.jpg"
-            alt="Syeda Nimra Bukhari"
-            className="w-72 h-72 md:w-80 md:h-96 object-cover rounded-2xl"
-          />
+          <div className="w-72 h-72 md:w-80 md:h-96 overflow-hidden rounded-2xl">
+            <img
+              src="/nimra-photo.jpg"
+              alt="Syeda Nimra Bukhari"
+              className="w-full h-full object-cover object-top"
+            />
+          </div>
         </div>
       </div>
     </section>

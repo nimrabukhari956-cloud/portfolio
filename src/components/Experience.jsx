@@ -1,18 +1,19 @@
 function Experience() {
   const experiences = [
-    {
-      period: "2026 – Present",
-      role: "Web Developer Intern",
-      company: "Algo Hub",
-      desc: "Interning as a Web Developer at Algo Hub, collaborating on modern web solutions and bringing ideas to life.",
-      icon: "A",
-    },
+   
     {
       period: "Feb 2025 – Present",
       role: "Web Developer",
       company: "Academic & Freelance Clients",
       desc: "Designed and developed responsive websites for academic and freelance clients with focus on performance and user experience.",
       icon: "🌐",
+    },
+    {
+      period: "2026 – Present",
+      role: "Web Developer Intern",
+      company: "Algo Hub",
+      desc: "Interning as a Web Developer at Algo Hub, collaborating on modern web solutions and bringing ideas to life.",
+      icon: "A",
     },
   ]
 

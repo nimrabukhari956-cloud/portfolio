@@ -5,36 +5,36 @@ function Projects() {
       title: "AI-Based Face Recognition Attendance System",
       desc: "Real-time attendance system using MTCNN for face detection and FaceNet for 512-D embeddings with up to 86% recognition confidence.",
       tags: ["Python", "OpenCV", "TensorFlow", "FaceNet"],
-      img: "/project1.jpg",
+      img: `${import.meta.env.BASE_URL}project1.jpg`,
     },
     {
       num: "02",
       title: "Flowline — Kanban Project Management Tool",
       desc: "Full-stack real-time Kanban board with drag & drop, RBAC, comments, file attachments and instant sync using Supabase and TanStack.",
       tags: ["React 19", "TanStack", "Supabase", "PostgreSQL"],
-      img: "/project2.jpg",
+      img: `${import.meta.env.BASE_URL}project2.jpg`,
     },
     {
       num: "03",
       title: "Local Service Provider",
       desc: "Full-stack platform connecting users with local service providers, featuring real-time booking, provider profiles, ratings, in-app chat and location-based search built on TanStack Start with Supabase.",
       tags: ["React 19", "TanStack", "Supabase", "PostgreSQL"],
-      img: "/project3.jpg",
+      img: `${import.meta.env.BASE_URL}project3.jpg`,
     },
     
     {
-      num: "05",
+      num: "04",
       title: "Algo Hub Website",
       desc: "Official company website developed with modern animations and responsive design for an engaging user experience.",
       tags: ["HTML", "CSS", "JavaScript", "Animations"],
-      img: "/project5.jpg",
+      img: `${import.meta.env.BASE_URL}project4.jpg`,
     },
     {
-      num: "06",
+      num: "05",
       title: "Meta Campus OS",
       desc: "Full-stack campus management platform with real-time data sync, role-based dashboards, resizable analytics panels and smooth motion-driven UI, built on TanStack Start with Supabase as the backend.",
       tags: ["React 19", "TanStack", "Supabase", "PostgreSQL"],
-      img: "/project6.jpg",
+      img: `${import.meta.env.BASE_URL}project5.jpg`,
     },
   ]
 
@@ -74,9 +74,14 @@ function Projects() {
       </div>
 
       <div className="flex justify-center mt-8">
-        <button className="flex items-center gap-2 bg-neutral-900 text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-neutral-800 transition-colors">
+       <a
+         href="https://github.com/nimrabukhari956-cloud"
+         target="_blank"
+         rel="noopener noreferrer"
+         className="flex items-center gap-2 bg-neutral-900 text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-neutral-800 transition-colors"
+         >
           View More on GitHub
-        </button>
+        </a>
       </div>
     </section>
   )
