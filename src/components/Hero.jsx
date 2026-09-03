@@ -1,8 +1,10 @@
 function Hero() {
   return (
     <section id="home" className="px-1 py-1">
-      <div className=" relative bg-neutral-200/60  overflow-hidden px-12 py-14 grid md:grid-cols-2 gap-8 items-center">
-
+      <div
+        className="relative bg-neutral-200/60  overflow-hidden px-12 py-14 grid md:grid-cols-2 gap-8 items-center bg-cover bg-center"
+        style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+      >
         {/* Left: Text Content */}
         <div className="flex flex-col gap-5 relative z-10">
           <p className="text-sm font-medium text-neutral-500 tracking-wide">
@@ -58,8 +60,8 @@ function Hero() {
         </div>
 
         {/* Right: Photo */}
-        <div className="relative flex justify-center md:justify-end">
-          <div className="w-72 h-72 md:w-80 md:h-96 overflow-hidden rounded-2xl">
+        <div className="relative flex justify-center md:justify-center self-end -mb-14">
+          <div className="w-72 h-72 md:w-80 md:h-120 ">
             <img
               src="/nimra-photo.jpg"
               alt="Syeda Nimra Bukhari"
