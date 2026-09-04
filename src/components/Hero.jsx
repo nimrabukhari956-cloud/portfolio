@@ -39,7 +39,7 @@ function Hero() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/nimrabukhari"
+              href="https://www.linkedin.com/in/syeda-nimra-bukhari-0117943b3/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-neutral-900 text-sm font-medium px-5 py-2.5 rounded-full hover:bg-neutral-100 transition-colors"
